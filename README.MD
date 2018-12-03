@@ -8,3 +8,6 @@ https://blog.csdn.net/sinat_36264666/article/details/78847003
 histogram of RGB combinations in matlab [duplicate]
 https://stackoverflow.com/questions/43878886/histogram-of-rgb-combinations-in-matlab
 https://stackoverflow.com/questions/25830225/content-based-image-retrieval-and-precision-recall-graphs-using-color-histograms
+
+
+https://uk.mathworks.com/matlabcentral/answers/399600-calculating-the-probability-of-a-data-point-in-a-histogram
