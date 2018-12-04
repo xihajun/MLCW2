@@ -15,3 +15,5 @@ https://uk.mathworks.com/matlabcentral/answers/399600-calculating-the-probabilit
 Q10 
 MNIST
 http://colah.github.io/posts/2014-10-Visualizing-MNIST/
+
+energy function 去噪之后会变
