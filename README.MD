@@ -12,3 +12,6 @@ https://stackoverflow.com/questions/25830225/content-based-image-retrieval-and-p
 
 
 https://uk.mathworks.com/matlabcentral/answers/399600-calculating-the-probability-of-a-data-point-in-a-histogram
+Q10 
+MNIST
+http://colah.github.io/posts/2014-10-Visualizing-MNIST/
