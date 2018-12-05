@@ -17,3 +17,8 @@ MNIST
 http://colah.github.io/posts/2014-10-Visualizing-MNIST/
 
 energy function 去噪之后会变
+
+Q8
+https://blog.csdn.net/wsj998689aa/article/details/47089153
+Histogram
+https://www.di.ens.fr/willow/events/cvml2010/materials/INRIA_summer_school_2010_Cordelia_bof_classification.pdf
