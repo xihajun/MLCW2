@@ -18,5 +18,13 @@ Inference: in neural nets, inference usually means prediction of latent represen
 One jargon-laden concept deserves its own subsection:
 
 https://stats.stackexchange.com/questions/321841/what-are-variational-autoencoders-and-to-what-learning-tasks-are-they-used
-https://www.cs.toronto.edu/~duvenaud/courses/csc2541/index.html
+https://www.cs.toronto.edu/~duvenaud/courses/csc2541/index.html which is good
 https://www.cs.cmu.edu/~bhiksha/courses/deeplearning/Spring.2017/slides/lec12.vae.pdf
+
+An intuitive understanding of variational autoencoders without any formula
+https://hsaghir.github.io/data_science/denoising-vs-variational-autoencoder/
+
+https://arxiv.org/pdf/1702.08658.pdf
+
+sample
+https://github.com/HIPS/autograd/blob/master/examples/variational_autoencoder.py
