@@ -1,0 +1,20 @@
+https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
+We need to decide on the language used for discussing variational autoencoders in a clear and concise way. Here is a glossary of terms I’ve found confusing:
+
+Variational Autoencoder (VAE): in neural net language, a VAE consists of an encoder, a decoder, and a loss function. In probability model terms, the variational autoencoder refers to approximate inference in a latent Gaussian model where the approximate posterior and model likelihood are parametrized by neural nets (the inference and generative networks).
+Loss function: in neural net language, we think of loss functions. Training means minimizing these loss functions. But in variational inference, we maximize the ELBO (which is not a loss function). This leads to awkwardness like calling optimizer.minimize(-elbo) as optimizers in neural net frameworks only support minimization.
+Encoder: in the neural net world, the encoder is a neural network that outputs a representation zz of data xx. In probability model terms, the inference network parametrizes the approximate posterior of the latent variables zz. The inference network outputs parameters to the distribution q(z \vert x)q(z∣x).
+Decoder: in deep learning, the decoder is a neural net that learns to reconstruct the data xx given a representation zz. In terms of probability models, the likelihood of the data xx given latent variables zz is parametrized by a generative network. The generative network outputs parameters to the likelihood distribution p(x \vert z)p(x∣z).
+Local latent variables: these are the z_iz
+​i
+​​  for each datapoint x_ix
+​i
+​​ . There are no global latent variables. Because there are only local latent variables, we can easily decompose the ELBO into terms \mathcal{L}_iL
+​i
+​​  that depend only on a single datapoint x_ix
+​i
+​​ . This enables stochastic gradient descent.
+Inference: in neural nets, inference usually means prediction of latent representations given new, never-before-seen datapoints. In probability models, inference refers to inferring the values of latent variables given observed data.
+One jargon-laden concept deserves its own subsection:
+
+https://stats.stackexchange.com/questions/321841/what-are-variational-autoencoders-and-to-what-learning-tasks-are-they-used
